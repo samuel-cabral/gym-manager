@@ -1,10 +1,11 @@
- 
 const express = require('express')
 const nunjucks = require('nunjucks')
 const routes = require('./routes')
 
 const server = express()
+const port = 5000
 
+server.use(express.urlencoded({ extended: true }))
 server.use(express.static('public'))
 server.use(routes)
 
@@ -16,6 +17,6 @@ nunjucks.configure('views', {
   noCache: true,
 })
 
-server.listen(5000, function() {
-  console.log('🚀 server is running on port 5000')
+server.listen(port, function() {
+  console.log(`🚀 server started on port ${port}`)
 })

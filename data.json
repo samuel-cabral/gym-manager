@@ -1,0 +1,20 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "https://facebook.com",
+      "name": "Cabral",
+      "birth": 286675200000,
+      "gender": "male",
+      "services": "Reto, Inclinado",
+      "created_at": 1607610437705
+    },
+    {
+      "avatar_url": "https://instagram.com",
+      "name": "Moraes",
+      "birth": -1579651200000,
+      "gender": "male",
+      "services": "Sony, Vegas",
+      "created_at": 1607610546137
+    }
+  ]
+}
